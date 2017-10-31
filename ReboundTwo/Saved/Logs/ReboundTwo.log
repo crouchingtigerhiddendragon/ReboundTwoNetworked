@@ -1,0 +1,1479 @@
+﻿Log file open, 11/01/17 10:43:15
+LogInit:Display: Running engine for game: ReboundTwo
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(409385523) SRandInit(409385523).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.070441
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.31-21.43.17:299][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.31-21.43.17:299][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.31-21.43.17:307][  0]LogInit: Computer: 1916C006
+[2017.10.31-21.43.17:307][  0]LogInit: User: connormur6909
+[2017.10.31-21.43.17:307][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.10.31-21.43.17:307][  0]LogInit: High frequency timer resolution =3.323613 MHz
+[2017.10.31-21.43.17:308][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.10.31-21.43.17:308][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.31-21.43.17:308][  0]LogMemory: Process Physical Memory: 267.20 MB used, 267.20 MB peak
+[2017.10.31-21.43.17:308][  0]LogMemory: Process Virtual Memory: 265.84 MB used, 265.84 MB peak
+[2017.10.31-21.43.17:308][  0]LogMemory: Physical Memory: 6198.11 MB used,  1952.05 MB free, 8150.16 MB total
+[2017.10.31-21.43.17:308][  0]LogMemory: Virtual Memory: 635.84 MB used,  1952.05 MB free, 8388608.00 MB total
+[2017.10.31-21.43.17:380][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
+[2017.10.31-21.43.19:086][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.31-21.43.19:107][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670' (Feature Level 11_0)
+[2017.10.31-21.43.19:107][  0]LogD3D11RHI:       1989/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.31-21.43.19:107][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.31-21.43.19:112][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.31-21.43.19:112][  0]LogD3D11RHI:     GPU DeviceId: 0x1189 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.31-21.43.19:112][  0]LogWindows: EnumDisplayDevices:
+[2017.10.31-21.43.19:112][  0]LogWindows:    0. 'NVIDIA GeForce GTX 670' (P:1 D:1)
+[2017.10.31-21.43.19:112][  0]LogWindows:    1. 'NVIDIA GeForce GTX 670' (P:0 D:1)
+[2017.10.31-21.43.19:112][  0]LogWindows:    2. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.10.31-21.43.19:112][  0]LogWindows:    3. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.10.31-21.43.19:113][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.31-21.43.19:113][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.31-21.43.19:113][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.31-21.43.19:113][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2017.10.31-21.43.19:113][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.31-21.43.19:113][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670
+[2017.10.31-21.43.19:113][  0]LogD3D11RHI:   Driver Version: 364.72 (internal:10.18.13.6472, unified:364.72)
+[2017.10.31-21.43.19:113][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2017.10.31-21.43.19:113][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.31-21.43.19:121][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.10.31-21.43.19:121][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.10.31-21.43.19:121][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.31-21.43.19:136][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.31-21.43.19:231][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Intermediate/Shaders/WorkingDirectory/3328/).
+[2017.10.31-21.43.19:231][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/connor.mur6909/AppData/Local/Temp/UnrealShaderWorkingDir/EEF6198E47A84949399DA0A1A387F264/'.
+[2017.10.31-21.43.19:231][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.31-21.43.22:559][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.31-21.43.22:609][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.31-21.43.22:659][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.31-21.43.22:711][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.31-21.43.22:776][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.31-21.43.22:827][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.31-21.43.22:877][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.31-21.43.22:927][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.31-21.43.22:966][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.31-21.43.23:044][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.31-21.43.23:094][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.31-21.43.23:144][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.31-21.43.23:192][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.31-21.43.23:242][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.31-21.43.23:293][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.31-21.43.23:407][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.31-21.43.23:407][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.31-21.43.23:439][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.31-21.43.23:613][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.31-21.43.23:643][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.31-21.43.23:694][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.31-21.43.23:744][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.31-21.43.23:794][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.31-21.43.23:863][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.31-21.43.23:863][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.31-21.43.24:917][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.31-21.43.25:638][  0]LogDerivedDataCache: Loaded boot cache 0.72s 50MB D:/Users/connor.mur6909/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.31-21.43.25:638][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/connor.mur6909/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.10.31-21.43.25:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.31-21.43.25:639][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.31-21.43.25:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.31-21.43.25:639][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.31-21.43.25:707][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.31-21.43.25:718][  0]LogDerivedDataCache: Using Local data cache path D:/Users/connor.mur6909/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.31-21.43.25:727][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.31-21.43.25:777][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.31-21.43.25:777][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.31-21.43.30:425][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.31-21.43.30:428][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.31-21.43.30:642][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.31-21.43.30:704][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.31-21.43.30:740][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.31-21.43.30:740][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.31-21.43.30:740][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.31-21.43.32:056][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: reboundtwo, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2292081572
+[2017.10.31-21.43.32:168][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2017.10.31-21.43.32:206][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026187 seconds
+[2017.10.31-21.43.32:211][  0]LogUObjectArray: 32500 objects as part of root set at end of initial load.
+[2017.10.31-21.43.32:211][  0]LogUObjectAllocator: 7290880 out of 0 bytes used by permanent object pool.
+[2017.10.31-21.43.32:211][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.31-21.44.16:697][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.31-21.44.16:748][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.31-21.44.17:744][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.31-21.44.18:183][  0]SourceControl: Info Source control is disabled
+[2017.10.31-21.44.18:365][  0]SourceControl: Info Source control is disabled
+[2017.10.31-21.44.18:451][  0]SourceControl: Info Source control is disabled
+[2017.10.31-21.44.18:512][  0]SourceControl: Info Source control is disabled
+[2017.10.31-21.44.19:940][  0]LogEngine: Initializing Engine...
+[2017.10.31-21.44.19:941][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.31-21.44.20:055][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.31-21.44.20:055][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.31-21.44.20:178][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.31-21.44.20:211][  0]LogInit: No audio devices found!
+[2017.10.31-21.44.20:235][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB D:/Users/connor.mur6909/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.31-21.44.20:240][  0]LogInit: Texture streaming: Enabled
+[2017.10.31-21.44.20:309][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.31-21.44.20:416][  0]LogInit: Transaction tracking system initialized
+[2017.10.31-21.44.20:751][  0]BlueprintLog: New page: Editor Load
+[2017.10.31-21.44.22:047][  0]LocalizationService: Info Localization service is disabled
+[2017.10.31-21.44.23:007][  0]LogConsoleResponse:Display: 
+[2017.10.31-21.44.23:156][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.31-21.44.23:156][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.31-21.44.23:261][  0]LogFileCache: Scanning file cache for directory 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/' took 0.01s
+[2017.10.31-21.44.24:291][  0]SourceControl: Info Source control is disabled
+[2017.10.31-21.44.24:291][  0]Cmd: MAP LOAD FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-21.44.24:292][  0]LightingResults: New page: Lighting Build
+[2017.10.31-21.44.24:324][  0]MapCheck: New page: Map Check
+[2017.10.31-21.44.24:324][  0]LightingResults: New page: Lighting Build
+[2017.10.31-21.44.24:382][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning Input Axis Event references unknown Axis 'AltP1Move' for  InputAxis AltP1Move
+[2017.10.31-21.44.24:382][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning Input Axis Event references unknown Axis 'P1Move' for  InputAxis P1Move
+[2017.10.31-21.44.24:385][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning [0069.33] Compile of Player1_Blueprint successful, but with 2 Warning(s) [in 6 ms] (/Game/Blueprints/Player1_Blueprint.Player1_Blueprint)
+[2017.10.31-21.44.24:385][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning [0069.33] Compile of Player1_Blueprint successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Player1_Blueprint.Player1_Blueprint)
+[2017.10.31-21.44.24:385][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning [0069.33] Compile of Player1_Blueprint successful, but with 4 Warning(s) [in 0 ms] (/Game/Blueprints/Player1_Blueprint.Player1_Blueprint)
+[2017.10.31-21.44.24:391][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning Input Axis Event references unknown Axis 'AltP1Move' for  InputAxis AltP1Move
+[2017.10.31-21.44.24:391][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning Input Axis Event references unknown Axis 'P1Move' for  InputAxis P1Move
+[2017.10.31-21.44.24:394][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning [0069.33] Compile of Player1_Blueprint successful, but with 2 Warning(s) [in 6 ms] (/Game/Blueprints/Player1_Blueprint.Player1_Blueprint)
+[2017.10.31-21.44.24:394][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning [0069.33] Compile of Player1_Blueprint successful, but with 3 Warning(s) [in 0 ms] (/Game/Blueprints/Player1_Blueprint.Player1_Blueprint)
+[2017.10.31-21.44.24:394][  0]LogBlueprint:Warning: [Compiler Player1_Blueprint] Warning [0069.33] Compile of Player1_Blueprint successful, but with 4 Warning(s) [in 0 ms] (/Game/Blueprints/Player1_Blueprint.Player1_Blueprint)
+[2017.10.31-21.44.24:449][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning Input Axis Event references unknown Axis 'AltP2Move' for  InputAxis AltP2Move
+[2017.10.31-21.44.24:450][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning Input Axis Event references unknown Axis 'P2Move' for  InputAxis P2Move
+[2017.10.31-21.44.24:452][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning [0069.39] Compile of Player2_Blueprint successful, but with 2 Warning(s) [in 7 ms] (/Game/BluePrints/Player2_Blueprint.Player2_Blueprint)
+[2017.10.31-21.44.24:453][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning [0069.39] Compile of Player2_Blueprint successful, but with 3 Warning(s) [in 0 ms] (/Game/BluePrints/Player2_Blueprint.Player2_Blueprint)
+[2017.10.31-21.44.24:453][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning [0069.39] Compile of Player2_Blueprint successful, but with 4 Warning(s) [in 0 ms] (/Game/BluePrints/Player2_Blueprint.Player2_Blueprint)
+[2017.10.31-21.44.24:459][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning Input Axis Event references unknown Axis 'AltP2Move' for  InputAxis AltP2Move
+[2017.10.31-21.44.24:459][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning Input Axis Event references unknown Axis 'P2Move' for  InputAxis P2Move
+[2017.10.31-21.44.24:462][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning [0069.40] Compile of Player2_Blueprint successful, but with 2 Warning(s) [in 6 ms] (/Game/BluePrints/Player2_Blueprint.Player2_Blueprint)
+[2017.10.31-21.44.24:462][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning [0069.40] Compile of Player2_Blueprint successful, but with 3 Warning(s) [in 0 ms] (/Game/BluePrints/Player2_Blueprint.Player2_Blueprint)
+[2017.10.31-21.44.24:462][  0]LogBlueprint:Warning: [Compiler Player2_Blueprint] Warning [0069.40] Compile of Player2_Blueprint successful, but with 4 Warning(s) [in 0 ms] (/Game/BluePrints/Player2_Blueprint.Player2_Blueprint)
+[2017.10.31-21.44.24:561][  0]LogBlueprint:Warning: [Ball_Bp] 'InMainMenu' variable not found. Base class was probably changed.
+[2017.10.31-21.44.24:561][  0]LogBlueprint:Warning: [Ball_Bp] 'InMainMenu' variable not found. Base class was probably changed.
+[2017.10.31-21.44.24:561][  0]LogBlueprint:Warning: [Ball_Bp] 'InMainMenu' variable not found. Base class was probably changed.
+[2017.10.31-21.44.24:561][  0]LogBlueprint:Warning: [Ball_Bp] 'InMainMenu' variable not found. Base class was probably changed.
+[2017.10.31-21.44.24:561][  0]LogBlueprint:Warning: [Ball_Bp] 'InMainMenu' variable not found. Base class was probably changed.
+[2017.10.31-21.44.25:861][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.31-21.44.26:111][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-21.44.26:111][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-21.44.26:171][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.919ms to complete.
+[2017.10.31-21.44.26:171][  0]LogFileHelpers: Loading map 'MainMenu' took 1.880
+[2017.10.31-21.44.26:433][  0]LogCollectionManager: Loaded 0 collections in 0.000903 seconds
+[2017.10.31-21.44.26:550][  0]LogFileCache: Scanning file cache for directory 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Collections/' took 0.01s
+[2017.10.31-21.44.26:550][  0]LogFileCache: Scanning file cache for directory 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Developers/connormur6909/Collections/' took 0.01s
+[2017.10.31-21.44.26:550][  0]LogFileCache: Scanning file cache for directory 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Collections/' took 0.01s
+[2017.10.31-21.44.26:550][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.31-21.44.26:564][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2247 classes and 456 folders.
+[2017.10.31-21.44.26:634][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.31-21.44.26:890][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.31-21.44.26:955][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.31-21.44.27:097][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.31-21.44.27:111][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.31-21.44.27:221][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.31-21.44.27:222][  0]LogLoad: (Engine Initialization) Total time: 72.16 seconds
+[2017.10.31-21.44.27:222][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.41 seconds
+[2017.10.31-21.44.27:222][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.31-21.44.27:222][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.31-21.44.27:230][  0]LogOcInput: OculusInput pre-init called
+[2017.10.31-21.44.27:288][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.31-21.44.27:299][  0]LogSlate: Took 0.009254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.31-21.44.27:305][  0]LogSlate: Took 0.003125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.31-21.44.27:338][  0]LogSlate: Took 0.026952 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.31-21.44.27:531][  0]LogSlate: Took 0.042140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-21.44.27:623][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.10.31-21.44.27:851][  2]LogAssetRegistry: Asset discovery search completed in 55.7061 seconds
+[2017.10.31-21.44.27:851][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.10.31-21.44.27:851][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.10.31-21.44.38:786][279]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-21.44.39:037][279]LogBlueprint:Warning: [VictoryWidget] 'InMainMenu' variable not found. Base class was probably changed.
+[2017.10.31-21.44.39:037][279]LogBlueprint:Warning: [VictoryWidget] 'InMainMenu' variable not found. Base class was probably changed.
+[2017.10.31-21.44.39:668][279]LogMaterial: Missing cached shader map for material MagentaPick_Mat, compiling. 
+[2017.10.31-21.44.39:669][279]LogTemp:Display: Added material ShaderMap 0x00000000666A2B00 with Material 0x00000000660E6800 to ShaderMapsBeingCompiled
+[2017.10.31-21.44.39:698][279]LogTemp:Display: Kicking off shader compilation for MagentaPick_Mat, GameThreadShaderMap 0x00000000666A2B00
+[2017.10.31-21.44.39:703][279]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512) - 96 MB total VRAM
+[2017.10.31-21.44.39:762][279]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:766][279]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:769][279]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:773][279]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:777][279]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:802][279]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:810][279]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:821][279]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:828][279]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:839][279]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:863][279]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:866][279]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128) - 96 MB total VRAM
+[2017.10.31-21.44.39:869][279]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:894][279]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:914][279]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 64X64) - 96 MB total VRAM
+[2017.10.31-21.44.39:915][279]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:923][279]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:936][279]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:940][279]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:951][279]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:956][279]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:960][279]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:968][279]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512) - 96 MB total VRAM
+[2017.10.31-21.44.39:987][279]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:990][279]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:993][279]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:996][279]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.39:999][279]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:013][279]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:022][279]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:036][279]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:039][279]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:048][279]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:072][279]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:074][279]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128) - 96 MB total VRAM
+[2017.10.31-21.44.40:076][279]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:084][279]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:090][279]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 64X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:091][279]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:099][279]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:111][279]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:115][279]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.31-21.44.40:121][279]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:130][279]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:134][279]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:138][279]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256) - 96 MB total VRAM
+[2017.10.31-21.44.40:143][279]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128) - 96 MB total VRAM
+[2017.10.31-21.44.40:148][279]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:149][279]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:150][279]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:151][279]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:152][279]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:153][279]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:154][279]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:155][279]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:157][279]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:158][279]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:159][279]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 128X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:159][279]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:161][279]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 512X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:162][279]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:163][279]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 32X32) - 96 MB total VRAM
+[2017.10.31-21.44.40:164][279]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:165][279]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:166][279]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:167][279]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:168][279]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:169][279]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:170][279]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64) - 96 MB total VRAM
+[2017.10.31-21.44.40:364][279]LogAIModule: Creating AISystem for world Arena
+[2017.10.31-21.44.41:919][279]Cmd: MAP LOAD FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-21.44.41:919][279]LightingResults: New page: Lighting Build
+[2017.10.31-21.44.41:920][279]LoadErrors: New page: Loading map: Arena.umap
+[2017.10.31-21.44.41:922][279]MapCheck: New page: Map Check
+[2017.10.31-21.44.41:922][279]LightingResults: New page: Lighting Build
+[2017.10.31-21.44.41:938][279]LogTemp:Display: Finished compile of shader map 0x00000000666A2B00
+[2017.10.31-21.44.41:938][279]LogTemp:Display: Shader map MagentaPick_Mat complete, GameThreadShaderMap 0x00000000666A2B00, marking material MagentaPick_Mat as finished
+[2017.10.31-21.44.41:938][279]LogTemp:Display: Marking material as finished 0x00000000660E6800
+[2017.10.31-21.44.42:107][279]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-21.44.42:113][279]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-21.44.42:186][279]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.552ms to complete.
+[2017.10.31-21.44.42:186][279]LogFileHelpers: Loading map 'Arena' took 0.268
+[2017.10.31-21.44.45:921][546]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.31-21.44.45:957][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Levels/Arena.Arena_C' with ClassGeneratedBy '/Game/Levels/Arena.Arena:PersistentLevel.Arena'
+[2017.10.31-21.44.45:958][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-21.44.45:969][546]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-21.44.45:970][546]LogOnline:Warning: STEAM: Steam API disabled!
+[2017.10.31-21.44.45:970][546]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.10.31-21.44.45:997][546]PIE: New page: PIE session: Arena (1/11/2017 11:44:45 pm)
+[2017.10.31-21.44.46:021][546]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arena
+[2017.10.31-21.44.46:107][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085911s)
+[2017.10.31-21.44.46:108][546]LogAIModule: Creating AISystem for world Arena
+[2017.10.31-21.44.46:108][546]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.10.31-21.44.46:114][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arena.Arena to /Game/Levels/UEDPIE_0_Arena.Arena (0.096240s)
+[2017.10.31-21.44.46:141][546]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_1d14_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_2d4_0///####STATCAT_Advanced####
+[2017.10.31-21.44.46:241][546]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.31-21.44.46:266][546]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2017.11.01-10.44.46
+[2017.10.31-21.44.46:294][546]LogWorld: Bringing up level for play took: 0.033517
+[2017.10.31-21.44.46:546][546]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.10.31-21.44.46:722][546]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Arena 1.261
+[2017.10.31-21.44.46:723][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Levels/Arena.Arena_C' with ClassGeneratedBy '/Game/Levels/Arena.Arena:PersistentLevel.Arena'
+[2017.10.31-21.44.51:172][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Levels/Arena.Arena_C' with ClassGeneratedBy '/Game/Levels/Arena.Arena:PersistentLevel.Arena'
+[2017.10.31-21.44.51:326][ 30]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-21.44.51:326][ 30]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.10.31-21.44.51:326][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Levels/Arena.Arena_C' with ClassGeneratedBy '/Game/Levels/Arena.Arena:PersistentLevel.Arena'
+[2017.10.31-21.44.51:387][ 31]LogPlayLevel:Display: Destroying online subsystem :Context_2
+[2017.10.31-21.44.51:387][ 31]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-21.44.58:246][808]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.31-21.44.58:251][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Levels/Arena.Arena_C' with ClassGeneratedBy '/Game/Levels/Arena.Arena:PersistentLevel.Arena'
+[2017.10.31-21.44.58:252][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-21.44.58:252][808]PIE: New page: PIE session: Arena (1/11/2017 11:44:58 pm)
+[2017.10.31-21.44.58:252][808]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arena
+[2017.10.31-21.44.58:274][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021846s)
+[2017.10.31-21.44.58:274][808]LogAIModule: Creating AISystem for world Arena
+[2017.10.31-21.44.58:275][808]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2017.10.31-21.44.58:275][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arena.Arena to /Game/Levels/UEDPIE_0_Arena.Arena (0.022732s)
+[2017.10.31-21.44.58:312][808]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.31-21.44.58:318][808]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2017.11.01-10.44.58
+[2017.10.31-21.44.58:318][808]LogWorld: Bringing up level for play took: 0.005471
+[2017.10.31-21.44.58:345][808]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Arena 0.884
+[2017.10.31-21.44.58:345][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Levels/Arena.Arena_C' with ClassGeneratedBy '/Game/Levels/Arena.Arena:PersistentLevel.Arena'
+[2017.10.31-21.45.01:167][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Levels/Arena.Arena_C' with ClassGeneratedBy '/Game/Levels/Arena.Arena:PersistentLevel.Arena'
+[2017.10.31-21.45.01:199][142]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-21.45.01:199][142]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.10.31-21.45.01:199][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Levels/Arena.Arena_C' with ClassGeneratedBy '/Game/Levels/Arena.Arena:PersistentLevel.Arena'
+[2017.10.31-21.45.01:283][146]LogPlayLevel:Display: Destroying online subsystem :Context_3
+[2017.10.31-21.45.01:283][146]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-21.45.05:179][579]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.10.31-21.45.09:512][ 41]LogEditorViewport: Clicking on Actor (LMB): Player2_Blueprint_C (Player2_Blueprint)
+[2017.10.31-21.45.10:617][132]LogEditorViewport: Clicking on Actor (LMB): Player1_Blueprint_C (Player1_Blueprint)
+[2017.10.31-21.45.11:560][232]LogEditorViewport: Clicking on Actor (LMB): Player2_Blueprint_C (Player2_Blueprint)
+[2017.10.31-21.59.09:367][115]LogEditorViewport: Clicking on Actor (LMB): PongBlockBp_C (PongBlockBp20)
+[2017.10.31-21.59.10:117][181]LogEditorViewport: Clicking on Actor (LMB): PongBlockBp_C (PongBlockBp21)
+[2017.10.31-21.59.10:667][240]LogEditorViewport: Clicking on Actor (LMB): PongBlockBp_C (PongBlockBp22)
+[2017.10.31-22.05.58:687][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.05.58:695][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Cyberworld.umap.
+[2017.10.31-22.05.58:695][548]LoadErrors:Error: Error /Game/Levels/Cyberworld : Can't find file for asset. /Game/Materials/M_Cybermountain
+[2017.10.31-22.05.58:713][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.05.58:713][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Cyberworld.umap.
+[2017.10.31-22.05.58:717][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.05.58:717][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Cyberworld.umap.
+[2017.10.31-22.05.58:717][548]LoadErrors:Error: Error /Game/Levels/Cyberworld : Can't find file for asset. /Game/Meshes/Cyber_Mountain
+[2017.10.31-22.05.58:719][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.05.58:719][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Cyberworld.umap.
+[2017.10.31-22.06.02:175][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.06.02:175][548]LoadErrors: Info Failed to load /Game/Meshes/Cyber_Mountain.Cyber_Mountain Referenced by Cyber_Mountain2
+[2017.10.31-22.06.02:175][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading NULL.
+[2017.10.31-22.06.02:176][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.06.02:176][548]LoadErrors: Info Failed to load /Game/Materials/M_Cybermountain.M_Cybermountain Referenced by Cyber_Mountain2
+[2017.10.31-22.06.02:176][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading NULL.
+[2017.10.31-22.06.02:176][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.06.02:176][548]LoadErrors: Info Failed to load /Game/Meshes/Cyber_Mountain.Cyber_Mountain Referenced by Cyber_Mountain3
+[2017.10.31-22.06.02:176][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading NULL.
+[2017.10.31-22.06.02:176][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.06.02:176][548]LoadErrors: Info Failed to load /Game/Materials/M_Cybermountain.M_Cybermountain Referenced by Cyber_Mountain3
+[2017.10.31-22.06.02:176][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading NULL.
+[2017.10.31-22.06.02:176][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.06.02:176][548]LoadErrors: Info Failed to load /Game/Meshes/Cyber_Mountain.Cyber_Mountain Referenced by Cyber_Mountain4
+[2017.10.31-22.06.02:176][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading NULL.
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.06.02:177][548]LoadErrors: Info Failed to load /Game/Materials/M_Cybermountain.M_Cybermountain Referenced by Cyber_Mountain4
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading NULL.
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.06.02:177][548]LoadErrors: Info Failed to load /Game/Meshes/Cyber_Mountain.Cyber_Mountain Referenced by Cyber_Mountain5
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading NULL.
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.06.02:177][548]LoadErrors: Info Failed to load /Game/Materials/M_Cybermountain.M_Cybermountain Referenced by Cyber_Mountain5
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading NULL.
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.06.02:177][548]LoadErrors: Info Failed to load /Game/Meshes/Cyber_Mountain.Cyber_Mountain Referenced by Cyber_Mountain6
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading NULL.
+[2017.10.31-22.06.02:177][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.06.02:178][548]LoadErrors: Info Failed to load /Game/Materials/M_Cybermountain.M_Cybermountain Referenced by Cyber_Mountain6
+[2017.10.31-22.06.02:178][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading NULL.
+[2017.10.31-22.06.02:178][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.06.02:178][548]LoadErrors: Info Failed to load /Game/Meshes/Cyber_Mountain.Cyber_Mountain Referenced by Cyber_Mountain7
+[2017.10.31-22.06.02:178][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading NULL.
+[2017.10.31-22.06.02:178][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.06.02:178][548]LoadErrors: Info Failed to load /Game/Materials/M_Cybermountain.M_Cybermountain Referenced by Cyber_Mountain7
+[2017.10.31-22.06.02:178][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading NULL.
+[2017.10.31-22.06.02:178][548]LogLinker:Warning: Can't find file '/Game/Meshes/Cyber_Mountain'
+[2017.10.31-22.06.02:178][548]LoadErrors: Info Failed to load /Game/Meshes/Cyber_Mountain.Cyber_Mountain Referenced by Cyber_Mountain_2
+[2017.10.31-22.06.02:178][548]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Cyber_Mountain' while loading NULL.
+[2017.10.31-22.06.02:179][548]LogLinker:Warning: Can't find file '/Game/Materials/M_Cybermountain'
+[2017.10.31-22.06.02:179][548]LoadErrors: Info Failed to load /Game/Materials/M_Cybermountain.M_Cybermountain Referenced by Cyber_Mountain_2
+[2017.10.31-22.06.02:179][548]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Cybermountain' while loading NULL.
+[2017.10.31-22.06.02:369][548]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Cyberworld.Cyberworld:PersistentLevel.ModelComponent_1084' invalid (6631 verts, 0 indices).
+[2017.10.31-22.06.04:676][548]LogAIModule: Creating AISystem for world Cyberworld
+[2017.10.31-22.06.04:761][548]Cmd: MAP LOAD FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Cyberworld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-22.06.04:762][548]LightingResults: New page: Lighting Build
+[2017.10.31-22.06.04:763][548]LoadErrors: New page: Loading map: Cyberworld.umap
+[2017.10.31-22.06.04:765][548]MapCheck: New page: Map Check
+[2017.10.31-22.06.04:765][548]LightingResults: New page: Lighting Build
+[2017.10.31-22.06.05:113][548]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-22.06.05:120][548]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-22.06.05:206][548]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.572ms to complete.
+[2017.10.31-22.06.05:206][548]LogFileHelpers: Loading map 'Cyberworld' took 0.446
+[2017.10.31-22.06.16:985][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Buildings_test1)
+[2017.10.31-22.06.19:556][160]LogSlate: Took 0.014452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.31-22.06.24:033][570]LogAIModule: Creating AISystem for world Arena
+[2017.10.31-22.06.24:070][570]Cmd: MAP LOAD FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-22.06.24:070][570]LightingResults: New page: Lighting Build
+[2017.10.31-22.06.24:072][570]LoadErrors: New page: Loading map: Arena.umap
+[2017.10.31-22.06.24:081][570]MapCheck: New page: Map Check
+[2017.10.31-22.06.24:081][570]LightingResults: New page: Lighting Build
+[2017.10.31-22.06.24:514][570]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-22.06.24:520][570]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-22.06.24:583][570]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.57ms to complete.
+[2017.10.31-22.06.24:583][570]LogFileHelpers: Loading map 'Arena' took 0.514
+[2017.10.31-22.06.33:348][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.31-22.06.37:072][994]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.06.51:010][357]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Arena2, Actor: /Game/Levels/Arena2.Arena2:PersistentLevel.Arena_C_1
+[2017.10.31-22.06.51:140][357]LogAIModule: Creating AISystem for world Arena2
+[2017.10.31-22.06.54:442][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ball_Bp" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Ball_Bp.uasset" SILENT=true
+[2017.10.31-22.06.54:643][458]LogSavePackage: Save=177.93ms
+[2017.10.31-22.06.54:643][458]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Ball_Bp4D47D94842A4385084DC82990487F208.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Ball_Bp.uasset'
+[2017.10.31-22.06.54:664][458]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Ball_Bp.uasset
+[2017.10.31-22.06.54:685][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player1_Blueprint" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Player1_Blueprint.uasset" SILENT=true
+[2017.10.31-22.06.54:740][458]LogSavePackage: Save=51.67ms
+[2017.10.31-22.06.54:740][458]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Player1_Blueprint0C44D47E49B500364927BA9162064EBF.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Player1_Blueprint.uasset'
+[2017.10.31-22.06.54:742][458]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Player1_Blueprint.uasset
+[2017.10.31-22.06.54:764][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Player2_Blueprint" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/BluePrints/Player2_Blueprint.uasset" SILENT=true
+[2017.10.31-22.06.54:808][458]LogSavePackage: Save=41.06ms
+[2017.10.31-22.06.54:808][458]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Player2_Blueprint17F528BE4E53D0028E46D3A8957150FD.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/BluePrints/Player2_Blueprint.uasset'
+[2017.10.31-22.06.54:810][458]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/BluePrints/Player2_Blueprint.uasset
+[2017.10.31-22.06.54:875][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arena2" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.31-22.06.54:973][458]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Arena2, Actor: /Game/Levels/Arena2.Arena2:PersistentLevel.Arena2_C_0
+[2017.10.31-22.06.55:311][458]LogSavePackage: Save=383.04ms
+[2017.10.31-22.06.55:311][458]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Arena2C147884747A1C8FED29DC982A38ABA41.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena2.umap'
+[2017.10.31-22.06.55:313][458]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena2.umap
+[2017.10.31-22.06.55:329][458]LogFileHelpers: Saving map 'Arena2' took 0.519
+[2017.10.31-22.06.55:331][458]Cmd: MAP LOAD FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-22.06.55:331][458]LightingResults: New page: Lighting Build
+[2017.10.31-22.06.55:332][458]LoadErrors: New page: Loading map: Arena2.umap
+[2017.10.31-22.06.55:334][458]MapCheck: New page: Map Check
+[2017.10.31-22.06.55:334][458]LightingResults: New page: Lighting Build
+[2017.10.31-22.06.55:660][458]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-22.06.55:668][458]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-22.06.55:723][458]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.39ms to complete.
+[2017.10.31-22.06.55:724][458]LogFileHelpers: Loading map 'Arena2' took 0.394
+[2017.10.31-22.06.58:566][760]LogEditorViewport: Clicking on Actor (LMB): PongBlockBp_C (PongBlockBp20)
+[2017.10.31-22.07.05:103][498]LogEditorViewport: Clicking on Actor (LMB): PongBlockBp_C (PongBlockBp17)
+[2017.10.31-22.07.13:761][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:772][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:772][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:773][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:773][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:773][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:773][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:773][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:773][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:774][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:774][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:774][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:774][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:774][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:774][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:774][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:775][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:775][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:775][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:775][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:775][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:775][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:775][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:776][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:776][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:776][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:776][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:776][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:776][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:776][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:777][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:777][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:777][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:777][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:777][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:777][445]LogEditorActor: Deleted Actor: PongBlockBp_C
+[2017.10.31-22.07.13:789][445]LogEditorActor: Deleted 36 Actors (0.037 secs)
+[2017.10.31-22.07.17:725][912]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.07.31:151][398]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/test Block_15degree.fbx)
+[2017.10.31-22.07.31:358][398]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.31-22.07.31:358][398]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.31-22.07.31:358][398]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.31-22.07.31:358][398]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.10.31-22.07.31:358][398]LogFbx: ItemName: Model, ItemCount : 3
+[2017.10.31-22.07.31:358][398]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.31-22.07.31:358][398]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.31-22.07.31:380][398]LogFbx: Loading FBX Scene from ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/test Block_15degree.fbx
+[2017.10.31-22.07.31:389][398]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.31-22.07.33:015][398]LogFbx: Loading FBX Scene from ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/test Block_15degree.fbx
+[2017.10.31-22.07.33:021][398]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.31-22.07.33:025][398]LogLinker: Can't find file '/Game/Levels/lambert1'
+[2017.10.31-22.07.33:025][398]LogLinker: Can't find file '/Game/Levels/lambert1'
+[2017.10.31-22.07.33:050][398]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.10.31-22.07.33:051][398]LogTemp:Display: Added material ShaderMap 0x0000000069F6AE80 with Material 0x00000000239B8580 to ShaderMapsBeingCompiled
+[2017.10.31-22.07.33:064][398]LogTemp:Display: Kicking off shader compilation for lambert1, GameThreadShaderMap 0x0000000069F6AE80
+[2017.10.31-22.07.33:066][398]LogFbx:Warning: Triangulating static mesh polySurface24
+[2017.10.31-22.07.33:429][398]LogStaticMesh: Building static mesh test_Block_15degree...
+[2017.10.31-22.07.33:754][398]LogStaticMesh: Built static mesh [0.33s] /Game/Levels/test_Block_15degree.test_Block_15degree
+[2017.10.31-22.07.34:004][398]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.31-22.07.34:004][398]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.10.31-22.07.36:699][602]LogTemp:Display: Finished compile of shader map 0x0000000069F6AE80
+[2017.10.31-22.07.36:699][602]LogTemp:Display: Shader map lambert1 complete, GameThreadShaderMap 0x0000000069F6AE80, marking material lambert1 as finished
+[2017.10.31-22.07.36:699][602]LogTemp:Display: Marking material as finished 0x00000000239B8580
+[2017.10.31-22.07.44:138][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/test_Block_15degree" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_15degree.uasset" SILENT=true
+[2017.10.31-22.07.44:148][221]LogSavePackage: Save=9.44ms
+[2017.10.31-22.07.44:148][221]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/test_Block_15degreeC722D20249AC5DEE107FDE978C5BE564.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_15degree.uasset'
+[2017.10.31-22.07.44:150][221]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_15degree.uasset
+[2017.10.31-22.07.58:543][ 59]LogActorFactory: Actor Factory created test_Block_15degree
+[2017.10.31-22.07.58:818][ 82]LogActorFactory: Actor Factory created test_Block_15degree
+[2017.10.31-22.09.20:941][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree)
+[2017.10.31-22.09.34:644][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree10)
+[2017.10.31-22.09.55:859][213]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.09.59:477][592]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.10.00:213][664]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.10.00:578][695]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.10.02:188][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree12)
+[2017.10.31-22.10.08:393][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:393][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:393][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:393][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:393][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:393][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:394][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:394][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:394][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:394][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:394][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.10.08:402][521]LogEditorActor: Deleted 11 Actors (0.010 secs)
+[2017.10.31-22.10.22:886][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree)
+[2017.10.31-22.10.36:669][392]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.10.51:182][913]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.10.57:252][547]Cmd: TRANSACTION UNDO
+[2017.10.31-22.10.57:252][547]LogEditorTransaction: Undo Move Actors
+[2017.10.31-22.10.57:330][547]LogSlate: Took 0.002457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-22.11.04:793][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.31-22.11.05:537][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree18)
+[2017.10.31-22.11.16:707][298]LogEditorViewport: Clicking on Actor (CTRL LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.11.21:079][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree9)
+[2017.10.31-22.11.43:499][977]Cmd: TRANSACTION UNDO
+[2017.10.31-22.11.43:499][977]LogEditorTransaction: Undo Move Actors
+[2017.10.31-22.11.43:512][977]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Arena2.Arena2:PersistentLevel.test_Block_15degree14.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.11.43:513][977]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Arena2.Arena2:PersistentLevel.test_Block_15degree15.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.11.43:513][977]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Arena2.Arena2:PersistentLevel.player2_Goal_Blueprint.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.11.43:514][977]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Arena2.Arena2:PersistentLevel.test_Block_15degree3_17.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.11.43:515][977]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Arena2.Arena2:PersistentLevel.test_Block_15degree6_23.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.11.44:455][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree18)
+[2017.10.31-22.11.50:523][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.31-22.11.51:618][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree20)
+[2017.10.31-22.12.03:715][980]LogEditorViewport: Clicking on Actor (CTRL LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.12.07:475][364]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.12.14:014][ 54]LogEditorViewport: Clicking on Actor (LMB): Player1_Blueprint_C (Player1_Blueprint)
+[2017.10.31-22.12.18:804][565]Cmd: TRANSACTION UNDO
+[2017.10.31-22.12.18:804][565]LogEditorTransaction: Undo Move Actors
+[2017.10.31-22.12.19:466][617]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.12.22:638][944]LogEditorViewport: Clicking on Actor (LMB): Player1_Blueprint_C (Player1_Blueprint)
+[2017.10.31-22.12.27:382][440]Cmd: TRANSACTION UNDO
+[2017.10.31-22.12.27:382][440]LogEditorTransaction: Undo Move Actors
+[2017.10.31-22.12.39:133][575]LogEditorViewport: Clicking on Actor (LMB): Player2_Blueprint_C (Player2_Blueprint)
+[2017.10.31-22.12.46:770][354]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.12.49:661][653]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.12.51:893][889]LogEditorViewport: Clicking on Actor (LMB): Player2_Blueprint_C (Player2_Blueprint)
+[2017.10.31-22.12.56:802][337]LogEditorViewport: Clicking on Actor (LMB): Player1_Blueprint_C (Player1_Blueprint)
+[2017.10.31-22.13.03:742][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree13)
+[2017.10.31-22.13.13:972][ 56]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.13.26:831][434]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.13.32:254][  1]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.13.33:231][107]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.13.35:361][329]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.13.36:576][455]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.13.36:952][494]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.13.40:446][834]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.13.43:967][165]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.13.47:766][498]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.13.50:107][738]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.10.31-22.13.55:525][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_15degree19)
+[2017.10.31-22.13.57:400][486]LogEditorViewport: Clicking on Actor (LMB): Player1_Blueprint_C (Player1_Blueprint)
+[2017.10.31-22.13.58:006][542]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.14.10:351][871]LogActorFactory: Actor Factory created Cube
+[2017.10.31-22.14.11:218][954]LogActorFactory: Actor Factory created Cube
+[2017.10.31-22.14.50:375][ 77]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.31-22.14.50:380][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.14.50:380][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-22.14.50:380][ 77]PIE: New page: PIE session: Arena2 (2/11/2017 12:14:50 am)
+[2017.10.31-22.14.50:383][ 77]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arena2
+[2017.10.31-22.14.50:404][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020631s)
+[2017.10.31-22.14.50:404][ 77]LogAIModule: Creating AISystem for world Arena2
+[2017.10.31-22.14.50:405][ 77]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2017.10.31-22.14.50:405][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arena2.Arena2 to /Game/Levels/UEDPIE_0_Arena2.Arena2 (0.021631s)
+[2017.10.31-22.14.50:445][ 77]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.31-22.14.50:451][ 77]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arena2.Arena2 up for play (max tick rate 0) at 2017.11.01-11.14.50
+[2017.10.31-22.14.50:451][ 77]LogWorld: Bringing up level for play took: 0.005395
+[2017.10.31-22.14.50:465][ 77]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Arena2 -0.911
+[2017.10.31-22.14.50:465][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.14.53:924][488]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.14.53:953][488]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-22.14.53:953][488]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.10.31-22.14.53:986][488]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.14.54:039][489]LogPlayLevel:Display: Destroying online subsystem :Context_8
+[2017.10.31-22.14.54:039][489]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-22.14.54:898][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.10.31-22.14.56:274][713]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2017.10.31-22.14.59:797][ 91]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.31-22.14.59:802][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.14.59:802][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-22.14.59:803][ 91]PIE: New page: PIE session: Arena2 (2/11/2017 12:14:59 am)
+[2017.10.31-22.14.59:803][ 91]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arena2
+[2017.10.31-22.14.59:822][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019232s)
+[2017.10.31-22.14.59:823][ 91]LogAIModule: Creating AISystem for world Arena2
+[2017.10.31-22.14.59:823][ 91]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.10.31-22.14.59:823][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arena2.Arena2 to /Game/Levels/UEDPIE_0_Arena2.Arena2 (0.020071s)
+[2017.10.31-22.14.59:862][ 91]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.31-22.14.59:868][ 91]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arena2.Arena2 up for play (max tick rate 0) at 2017.11.01-11.14.59
+[2017.10.31-22.14.59:868][ 91]LogWorld: Bringing up level for play took: 0.005131
+[2017.10.31-22.14.59:881][ 91]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Arena2 0.506
+[2017.10.31-22.14.59:881][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.15.48:270][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.15.48:303][843]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-22.15.48:303][843]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.10.31-22.15.48:334][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.15.48:392][844]LogPlayLevel:Display: Destroying online subsystem :Context_9
+[2017.10.31-22.15.48:392][844]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-22.16.35:336][359]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.31-22.16.35:342][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.16.35:342][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-22.16.35:342][359]PIE: New page: PIE session: Arena2 (2/11/2017 12:16:35 am)
+[2017.10.31-22.16.35:343][359]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arena2
+[2017.10.31-22.16.35:363][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020026s)
+[2017.10.31-22.16.35:363][359]LogAIModule: Creating AISystem for world Arena2
+[2017.10.31-22.16.35:363][359]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.10.31-22.16.35:363][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arena2.Arena2 to /Game/Levels/UEDPIE_0_Arena2.Arena2 (0.020854s)
+[2017.10.31-22.16.35:400][359]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.31-22.16.35:406][359]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arena2.Arena2 up for play (max tick rate 0) at 2017.11.01-11.16.35
+[2017.10.31-22.16.35:406][359]LogWorld: Bringing up level for play took: 0.005256
+[2017.10.31-22.16.35:419][359]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Arena2 0.049
+[2017.10.31-22.16.35:420][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.17.05:579][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.17.05:608][972]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-22.17.05:608][972]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.10.31-22.17.05:639][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Arena2.Arena2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2' with GeneratedClass '/Game/Levels/Arena2.Arena2_C' with ClassGeneratedBy '/Game/Levels/Arena2.Arena2:PersistentLevel.Arena2'
+[2017.10.31-22.17.05:701][973]LogPlayLevel:Display: Destroying online subsystem :Context_10
+[2017.10.31-22.17.05:701][973]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-22.17.31:119][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arena2" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.31-22.17.31:514][753]LogSavePackage: Save=382.35ms
+[2017.10.31-22.17.31:514][753]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Arena2A0BE2F614AC6AE364A6E2FB4419D6713.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena2.umap'
+[2017.10.31-22.17.31:516][753]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Arena2.umap
+[2017.10.31-22.17.31:524][753]LogFileHelpers: Saving map 'Arena2' took 0.477
+[2017.10.31-22.17.31:600][753]LogSavePackage: Save=7.55ms
+[2017.10.31-22.17.31:600][753]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Main_Arena5609B71F4E973091CB9C7385B76C5CF4.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap'
+[2017.10.31-22.17.31:602][753]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap
+[2017.10.31-22.17.31:602][753]LogFileHelpers: Saving map 'Main_Arena' took 0.078
+[2017.10.31-22.17.31:602][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/test_Block_15degree" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/test_Block_15degree.uasset" SILENT=true
+[2017.10.31-22.17.31:604][753]LogSavePackage: Save=0.68ms
+[2017.10.31-22.17.31:604][753]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/test_Block_15degreeEC5A0C5D407CBBC4A8E13289875E3C30.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/test_Block_15degree.uasset'
+[2017.10.31-22.17.31:605][753]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/test_Block_15degree.uasset
+[2017.10.31-22.17.31:650][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/test_Block_15degree" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_15degree.uasset" SILENT=true
+[2017.10.31-22.17.31:662][753]LogSavePackage: Save=8.63ms
+[2017.10.31-22.17.31:662][753]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/test_Block_15degree403A2C364733BD02DF003C8FF2B294C5.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_15degree.uasset'
+[2017.10.31-22.17.31:664][753]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_15degree.uasset
+[2017.10.31-22.17.31:666][753]Cmd: MAP LOAD FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-22.17.31:666][753]LightingResults: New page: Lighting Build
+[2017.10.31-22.17.31:667][753]LoadErrors: New page: Loading map: Main_Arena.umap
+[2017.10.31-22.17.31:669][753]MapCheck: New page: Map Check
+[2017.10.31-22.17.31:669][753]LightingResults: New page: Lighting Build
+[2017.10.31-22.17.31:781][753]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-22.17.31:808][753]LogAIModule: Creating AISystem for world Main_Arena
+[2017.10.31-22.17.31:817][753]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-22.17.31:876][753]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.683ms to complete.
+[2017.10.31-22.17.31:877][753]LogFileHelpers: Loading map 'Main_Arena' took 0.212
+[2017.10.31-22.18.06:376][837]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.10.31-22.18.07:918][837]LogRenderer: Reallocating scene render targets to support 1208x720 NumSamples 1 (Frame:91767).
+[2017.10.31-22.18.25:429][490]BlueprintLog: New page: Compile BP_Sky
+[2017.10.31-22.18.32:307][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Sky" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/BP_Sky.uasset" SILENT=true
+[2017.10.31-22.18.32:319][208]LogSavePackage: Save=10.54ms
+[2017.10.31-22.18.32:319][208]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/BP_SkyAB9D77C7414A653E73A8E18902AA3D69.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/BP_Sky.uasset'
+[2017.10.31-22.18.32:320][208]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/BP_Sky.uasset
+[2017.10.31-22.18.39:440][ 17]LogEditorViewport: Clicking Background
+[2017.10.31-22.18.48:129][ 34]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2017.10.31-22.19.23:866][149]LogEditorViewport: Clicking Background
+[2017.10.31-22.19.26:710][475]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.31-22.19.32:507][135]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2017.10.31-22.19.56:736][861]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 100 MB total VRAM
+[2017.10.31-22.20.01:774][420]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.31-22.20.09:727][349]LogEditorViewport: Clicking Background
+[2017.10.31-22.26.41:542][775]LogSlate: Took 0.171064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.31-22.26.57:424][658]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/test Block_10degree.fbx)
+[2017.10.31-22.26.57:429][658]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.31-22.26.57:429][658]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.31-22.26.57:429][658]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.31-22.26.57:429][658]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.10.31-22.26.57:429][658]LogFbx: ItemName: Model, ItemCount : 3
+[2017.10.31-22.26.57:429][658]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.31-22.26.57:429][658]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.31-22.26.57:433][658]LogFbx: Loading FBX Scene from ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/test Block_10degree.fbx
+[2017.10.31-22.26.57:439][658]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.31-22.26.59:594][658]LogFbx: Loading FBX Scene from ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/test Block_10degree.fbx
+[2017.10.31-22.26.59:600][658]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.31-22.26.59:602][658]LogFbx:Warning: Triangulating static mesh polySurface1
+[2017.10.31-22.26.59:605][658]LogStaticMesh: Building static mesh test_Block_10degree...
+[2017.10.31-22.26.59:606][658]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/test_Block_10degree.test_Block_10degree
+[2017.10.31-22.26.59:612][658]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.31-22.26.59:612][658]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.10.31-22.27.02:819][938]LogActorFactory: Actor Factory created test_Block_10degree
+[2017.10.31-22.27.03:037][963]LogActorFactory: Actor Factory created test_Block_10degree
+[2017.10.31-22.27.54:656][592]Cmd: TRANSACTION UNDO
+[2017.10.31-22.27.54:656][592]LogEditorTransaction: Undo Rotate Actors
+[2017.10.31-22.27.59:430][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree)
+[2017.10.31-22.28.09:112][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree8)
+[2017.10.31-22.28.27:557][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree9)
+[2017.10.31-22.28.28:693][202]Cmd: DELETE
+[2017.10.31-22.28.28:693][202]Cmd: ACTOR DELETE
+[2017.10.31-22.28.28:850][202]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.28.28:867][202]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.10.31-22.28.29:426][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree)
+[2017.10.31-22.29.02:074][790]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.02:074][790]LogEditorTransaction: Undo Move Actors
+[2017.10.31-22.29.02:080][790]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree12.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.02:082][790]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree3.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.02:084][790]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree18.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.02:084][790]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree21.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.17:507][296]LogEditorViewport: Clicking Background
+[2017.10.31-22.29.18:658][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree2)
+[2017.10.31-22.29.23:164][869]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.23:164][869]LogEditorTransaction: Undo Move Actors
+[2017.10.31-22.29.23:170][869]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree16.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.23:171][869]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree14.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.23:171][869]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree2.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.23:171][869]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree3.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.23:172][869]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree17.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.23:174][869]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.GroupActor_0.GroupComponent) Component already registered.
+[2017.10.31-22.29.23:175][869]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree22.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.33:659][839]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.33:659][839]LogEditorTransaction: Undo Rotate Actors
+[2017.10.31-22.29.33:664][839]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree53.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.33:665][839]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree51.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.33:665][839]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree39.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.33:665][839]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree40.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.33:666][839]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree54.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.33:668][839]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.GroupActor_2.GroupComponent) Component already registered.
+[2017.10.31-22.29.33:668][839]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree59.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:259][884]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.34:259][884]LogEditorTransaction: Undo Set actor location
+[2017.10.31-22.29.34:264][884]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree49.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:266][884]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree40.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:268][884]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree55.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:269][884]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree58.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:494][905]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.34:494][905]LogEditorTransaction: Undo Move Actors
+[2017.10.31-22.29.34:504][905]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree27.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:505][905]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree33.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:507][905]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree8.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:508][905]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree14.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.34:933][943]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.34:933][943]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.31-22.29.35:334][987]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.35:334][987]LogEditorTransaction: Undo Clicking Background
+[2017.10.31-22.29.35:718][ 20]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.35:718][ 20]LogEditorTransaction: Undo Regroup Ctrl+G
+[2017.10.31-22.29.35:723][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree9_40.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.35:724][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree10.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.35:725][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree15.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.35:726][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree4.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.35:726][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree2.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.35:726][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree29.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.35:727][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree30.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.35:728][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree19.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.35:728][ 20]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree20.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.36:166][ 59]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.36:166][ 59]LogEditorTransaction: Undo Set actor location
+[2017.10.31-22.29.36:171][ 59]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree12.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.36:173][ 59]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree3.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.36:175][ 59]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree18.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.36:176][ 59]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree21.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.36:572][100]Cmd: TRANSACTION UNDO
+[2017.10.31-22.29.36:572][100]LogEditorTransaction: Undo Move Actors
+[2017.10.31-22.29.36:578][100]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree12.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.36:579][100]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree3.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.36:582][100]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree18.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.29.36:582][100]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Main_Arena.Main_Arena:PersistentLevel.test_Block_10degree21.StaticMeshComponent0) Component already registered.
+[2017.10.31-22.30.05:624][291]Cmd: EDIT PASTE
+[2017.10.31-22.30.53:999][364]Cmd: DELETE
+[2017.10.31-22.30.53:999][364]Cmd: ACTOR DELETE
+[2017.10.31-22.30.54:001][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:002][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:002][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:003][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:003][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:004][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:004][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:004][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:005][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:005][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:005][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:006][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:006][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:006][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:007][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:007][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:007][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:007][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:008][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:008][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:008][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:009][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:009][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:009][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:009][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:010][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:010][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:010][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:011][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:011][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:011][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:011][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:012][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:012][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:012][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:013][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.30.54:027][364]LogEditorActor: Deleted 36 Actors (0.027 secs)
+[2017.10.31-22.31.34:670][669]LogSavePackage: Save=71.18ms
+[2017.10.31-22.31.34:670][669]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Main_ArenaBF0CF6C642CA168AB4F675A7FE51B561.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap'
+[2017.10.31-22.31.34:672][669]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap
+[2017.10.31-22.31.34:682][669]LogFileHelpers: Saving map 'Main_Arena' took 0.181
+[2017.10.31-22.31.34:710][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/test_Block_10degree" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_10degree.uasset" SILENT=true
+[2017.10.31-22.31.34:721][669]LogSavePackage: Save=9.12ms
+[2017.10.31-22.31.34:721][669]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/test_Block_10degree3AC33DFD4F8B39FEB74B8390EB42C6BA.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_10degree.uasset'
+[2017.10.31-22.31.34:722][669]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/test_Block_10degree.uasset
+[2017.10.31-22.31.35:604][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree52)
+[2017.10.31-22.31.38:002][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree72)
+[2017.10.31-22.31.52:854][554]LogEditorViewport: Clicking Background
+[2017.10.31-22.31.53:847][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree21)
+[2017.10.31-22.32.03:696][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree64)
+[2017.10.31-22.32.08:674][ 60]LogEditorViewport: Clicking Background
+[2017.10.31-22.32.15:007][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree37)
+[2017.10.31-22.32.21:281][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree4)
+[2017.10.31-22.32.23:348][597]LogEditorViewport: Clicking Background
+[2017.10.31-22.32.27:018][  6]LogEditorViewport: Clicking Background
+[2017.10.31-22.32.30:022][309]LogActorFactory: Actor Factory created Buildings_test1
+[2017.10.31-22.32.30:430][357]LogActorFactory: Actor Factory created Buildings_test1
+[2017.10.31-22.32.35:671][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Buildings_test1)
+[2017.10.31-22.32.46:603][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Buildings_test1)
+[2017.10.31-22.33.59:595][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Buildings_test1)
+[2017.10.31-22.34.11:327][151]Cmd: TRANSACTION UNDO
+[2017.10.31-22.34.11:327][151]LogEditorTransaction: Undo Scale Actors
+[2017.10.31-22.34.24:736][580]LogActorFactory: Actor Factory created Pong_Core
+[2017.10.31-22.34.25:101][618]LogActorFactory: Actor Factory created Pong_Core
+[2017.10.31-22.34.47:962][945]Cmd: DELETE
+[2017.10.31-22.34.47:963][945]Cmd: ACTOR DELETE
+[2017.10.31-22.34.47:963][945]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.34.47:979][945]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.10.31-22.38.25:492][757]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/Test_Goal_76.fbx)
+[2017.10.31-22.38.25:503][757]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.31-22.38.25:503][757]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.31-22.38.25:503][757]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.31-22.38.25:503][757]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.31-22.38.25:503][757]LogFbx: ItemName: Material, ItemCount : 1
+[2017.10.31-22.38.25:503][757]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.31-22.38.25:507][757]LogFbx: Loading FBX Scene from ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/Test_Goal_76.fbx
+[2017.10.31-22.38.25:640][757]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.31-22.38.27:091][757]LogFbx: Loading FBX Scene from ../../../../Users/connor.mur6909/Desktop/Rebound 2 Assets/Test_Goal_76.fbx
+[2017.10.31-22.38.27:097][757]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.31-22.38.27:099][757]LogFbx:Warning: Triangulating static mesh pCylinder8
+[2017.10.31-22.38.27:158][757]LogStaticMesh: Building static mesh Test_Goal_76...
+[2017.10.31-22.38.27:170][757]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Test_Goal_76.Test_Goal_76
+[2017.10.31-22.38.27:180][757]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.31-22.38.37:151][814]LogActorFactory: Actor Factory created Test_Goal_76
+[2017.10.31-22.38.37:269][827]LogActorFactory: Actor Factory created Test_Goal_76
+[2017.10.31-22.39.00:336][857]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.31-22.39.00:350][857]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.10.31-22.39.07:155][336]LogSlate: Took 0.011900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.31-22.39.59:995][191]BlueprintLog: New page: Compile Player1_Goal_Blueprint
+[2017.10.31-22.40.04:673][535]LogRenderer: Reallocating scene render targets to support 1208x744 NumSamples 1 (Frame:208113).
+[2017.10.31-22.40.05:785][626]LogSavePackage: Save=15.80ms
+[2017.10.31-22.40.05:785][626]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Player1_Goal_Blueprint2E4D779C40B0B6AD7C82CFB6402ECFA3.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Player1_Goal_Blueprint.uasset'
+[2017.10.31-22.40.05:787][626]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Player1_Goal_Blueprint.uasset
+[2017.10.31-22.40.32:022][457]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.40.44:022][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test_Block_10degree37)
+[2017.10.31-22.40.49:804][730]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.41.43:956][553]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.41.55:682][392]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.41.56:676][466]BlueprintLog: New page: Compile Player1_Goal_Blueprint
+[2017.10.31-22.42.13:221][540]BlueprintLog: New page: Compile player2_Goal_Blueprint
+[2017.10.31-22.42.14:003][581]LogSavePackage: Save=15.25ms
+[2017.10.31-22.42.14:003][581]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/player2_Goal_Blueprint65A79111438863639D6E739AF5ADCBBE.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/player2_Goal_Blueprint.uasset'
+[2017.10.31-22.42.14:005][581]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/player2_Goal_Blueprint.uasset
+[2017.10.31-22.42.20:554][ 59]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.42.21:771][170]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.42.25:762][509]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.42.30:455][840]LogEditorViewport: Clicking on Actor (LMB): Player1_Goal_Blueprint_C (Player1_Goal_Blueprint)
+[2017.10.31-22.42.33:394][ 52]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.42.40:863][588]LogEditorViewport: Clicking on Actor (LMB): player2_Goal_Blueprint_C (player2_Goal_Blueprint)
+[2017.10.31-22.44.08:258][575]LogEditorViewport: Clicking Background
+[2017.10.31-22.44.30:111][619]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.31-22.44.33:263][889]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2017.10.31-22.45.31:901][205]LogSavePackage: Save=114.70ms
+[2017.10.31-22.45.31:901][205]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Main_Arena0FF6CA114E2B534125E7D58B5C2B7FB0.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap'
+[2017.10.31-22.45.31:903][205]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap
+[2017.10.31-22.45.31:914][205]LogFileHelpers: Saving map 'Main_Arena' took 0.688
+[2017.10.31-22.45.31:971][205]LogSavePackage: Save=15.31ms
+[2017.10.31-22.45.31:971][205]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Player1_Goal_BlueprintFDDE3B2A44CD5EDC918FF288998AFC85.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Player1_Goal_Blueprint.uasset'
+[2017.10.31-22.45.31:973][205]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Blueprints/Player1_Goal_Blueprint.uasset
+[2017.10.31-22.45.32:001][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Test_Goal_76" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/Test_Goal_76.uasset" SILENT=true
+[2017.10.31-22.45.32:012][205]LogSavePackage: Save=9.13ms
+[2017.10.31-22.45.32:012][205]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Test_Goal_763D14FFCB459CD4D43A9CC786A04B1591.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/Test_Goal_76.uasset'
+[2017.10.31-22.45.32:014][205]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Meshes/Test_Goal_76.uasset
+[2017.10.31-22.46.04:965][155]LogSavePackage: Save=94.52ms
+[2017.10.31-22.46.04:965][155]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Main_ArenaB65402EF404DE2429415D68E25F5DF31.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap'
+[2017.10.31-22.46.04:967][155]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap
+[2017.10.31-22.46.04:976][155]LogFileHelpers: Saving map 'Main_Arena' took 0.187
+[2017.10.31-22.46.36:260][992]MapCheck: New page: Map Check
+[2017.10.31-22.46.36:318][992]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.31-22.46.36:319][992]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.31-22.46.36:608][992]LightingResults: New page: Lighting Build - 2/11/2017 12:46:36 am
+[2017.10.31-22.46.37:604][992]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.31-22.46.37:766][992]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.31-22.46.39:683][992]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.31-22.46.42:058][992]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.31-22.46.42:059][992]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3328
+[2017.10.31-22.46.58:062][992]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.10.31-22.46.58:062][992]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.31-22.46.58:062][992]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.31-22.46.58:062][992]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.31-22.46.58:062][992]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.31-22.46.58:062][992]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.31-22.46.58:537][992]LogEditorBuildUtils: Build time 0:22
+[2017.10.31-22.46.58:542][992]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2017.10.31-22.46.58:544][992]LogTemp:Display: Added material ShaderMap 0x000000008BF5EB00 with Material 0x00000000A2F3B100 to ShaderMapsBeingCompiled
+[2017.10.31-22.46.58:546][992]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer lambert1, GameThreadShaderMap 0x000000008BF5EB00
+[2017.10.31-22.46.58:548][992]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2017.10.31-22.46.58:549][992]LogTemp:Display: Added material ShaderMap 0x000000008BF5D600 with Material 0x00000000A2F3A500 to ShaderMapsBeingCompiled
+[2017.10.31-22.46.58:551][992]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer lambert1, GameThreadShaderMap 0x000000008BF5D600
+[2017.10.31-22.46.59:193][994]LogTemp:Display: Finished compile of shader map 0x000000008BF5EB00
+[2017.10.31-22.46.59:193][994]LogTemp:Display: Shader map FLightmassMaterialRenderer lambert1 complete, GameThreadShaderMap 0x000000008BF5EB00, marking material FLightmassMaterialRenderer lambert1 as finished
+[2017.10.31-22.46.59:193][994]LogTemp:Display: Marking material as finished 0x00000000A2F3B100
+[2017.10.31-22.46.59:196][994]LogTemp:Display: Finished compile of shader map 0x000000008BF5D600
+[2017.10.31-22.46.59:196][994]LogTemp:Display: Shader map FLightmassMaterialRenderer lambert1 complete, GameThreadShaderMap 0x000000008BF5D600, marking material FLightmassMaterialRenderer lambert1 as finished
+[2017.10.31-22.46.59:196][994]LogTemp:Display: Marking material as finished 0x00000000A2F3A500
+[2017.10.31-22.47.02:830][114]LogStaticLightingSystem:Warning: Failed to build lighting!!! Lighting build canceled.
+[2017.10.31-22.47.04:060][114]Job has failed! Job is closed while Tasks are still PENDING
+[2017.10.31-22.47.04:060][114]DumpUnbuiltLightIteractions
+[2017.10.31-22.47.04:060][114]Lights with unbuilt interactions: 1
+[2017.10.31-22.47.04:060][114]    Light DirectionalLight_1
+[2017.10.31-22.47.04:060][114]
+[2017.10.31-22.47.04:060][114]Primitives with unbuilt interactions: 3
+[2017.10.31-22.47.04:060][114]    Primitive StaticMeshComponent /Game/Levels/Main_Arena.Main_Arena:PersistentLevel.Player1_Goal_Blueprint_2.StaticMeshComponent0
+[2017.10.31-22.47.04:060][114]    Primitive StaticMeshComponent /Game/Levels/Main_Arena.Main_Arena:PersistentLevel.player2_Goal_Blueprint_2.StaticMeshComponent0
+[2017.10.31-22.47.04:060][114]    Primitive StaticMeshComponent /Game/Levels/Main_Arena.Main_Arena:PersistentLevel.Buildings_test1_151.StaticMeshComponent0
+[2017.10.31-22.47.04:194][115]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.31-22.47.04:194][115]MapCheck: New page: Main_Arena - 2/11/2017 12:47:04 am
+[2017.10.31-22.47.04:236][115]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.10.31-22.47.04:313][115]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 118.336ms to complete.
+[2017.10.31-22.47.47:277][875]MapCheck: New page: Map Check
+[2017.10.31-22.47.47:314][875]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.31-22.47.47:314][875]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.31-22.47.47:736][875]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.10.31-22.47.47:737][875]LogTemp:Display: Added material ShaderMap 0x000000009B951980 with Material 0x000000004DA6CD00 to ShaderMapsBeingCompiled
+[2017.10.31-22.47.47:739][875]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x000000009B951980
+[2017.10.31-22.47.47:806][875]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2017.10.31-22.47.47:807][875]LogTemp:Display: Added material ShaderMap 0x000000004D9D7900 with Material 0x000000004DA6D600 to ShaderMapsBeingCompiled
+[2017.10.31-22.47.47:809][875]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy lambert1, GameThreadShaderMap 0x000000004D9D7900
+[2017.10.31-22.47.48:099][875]LogTemp:Display: Finished compile of shader map 0x000000004D9D7900
+[2017.10.31-22.47.48:099][875]LogTemp:Display: Shader map FDebugViewModeMaterialProxy lambert1 complete, GameThreadShaderMap 0x000000004D9D7900, marking material FDebugViewModeMaterialProxy lambert1 as finished
+[2017.10.31-22.47.48:099][875]LogTemp:Display: Marking material as finished 0x000000004DA6D600
+[2017.10.31-22.47.48:124][875]LogTemp:Display: Finished compile of shader map 0x000000009B951980
+[2017.10.31-22.47.48:124][875]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x000000009B951980, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.10.31-22.47.48:124][875]LogTemp:Display: Marking material as finished 0x000000004DA6CD00
+[2017.10.31-22.47.48:126][875]TextureStreamingBuild:Display: Compiling optional shaders took 0.473 seconds.
+[2017.10.31-22.47.48:160][875]LogLevel:Display: Export Material TexCoord Scales took 0.034 seconds.
+[2017.10.31-22.47.48:182][875]TextureStreamingBuild:Display: Build Texture Streaming took 0.022 seconds.
+[2017.10.31-22.47.48:199][875]LightingResults: New page: Lighting Build - 2/11/2017 12:47:48 am
+[2017.10.31-22.47.48:207][875]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.31-22.47.48:208][875]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.31-22.47.48:208][875]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.31-22.47.48:209][875]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.31-22.47.48:209][875]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3328
+[2017.10.31-22.47.52:713][875]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.31-22.47.52:713][875]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.31-22.47.52:713][875]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.31-22.47.52:713][875]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.31-22.47.52:713][875]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.31-22.47.52:768][875]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.31-22.47.52:768][875]MapCheck: New page: Main_Arena - 2/11/2017 12:47:52 am
+[2017.10.31-22.47.52:769][875]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.10.31-22.47.52:839][875]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 70.223ms to complete.
+[2017.10.31-22.47.52:859][875]LogEditorBuildUtils: Build time 0:05
+[2017.10.31-22.47.59:669][180]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.47.59:669][180]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.47.59:689][181]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.47.59:689][181]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.47.59:729][183]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.47.59:729][183]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.47.59:749][184]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.47.59:769][185]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:189][206]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:189][206]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:249][209]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:249][209]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:249][209]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:249][209]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:269][210]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:269][210]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:329][213]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:329][213]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:329][213]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:329][213]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:329][213]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:329][213]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:389][216]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:389][216]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:389][216]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:389][216]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:389][216]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:389][216]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:449][219]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:449][219]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:449][219]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:449][219]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:449][219]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:469][220]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:509][222]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:509][222]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:509][222]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:509][222]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:529][223]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:529][223]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:579][225]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:579][225]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:659][228]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:659][228]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:739][232]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:739][232]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:739][232]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:739][232]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:799][235]LightingResults:Warning: Warning Test_Goal_76 Object has overlapping UVs.
+[2017.10.31-22.48.00:799][235]LightingResults: Info Test_Goal_76 Lightmap UV are overlapping by 17.1%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:799][235]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:799][235]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:799][235]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:799][235]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:879][239]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:879][239]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:879][239]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:879][239]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:879][239]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:879][239]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:939][242]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:939][242]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:939][242]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:939][242]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:939][242]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:939][242]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:999][245]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:999][245]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:999][245]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:999][245]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.00:999][245]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.00:999][245]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:069][248]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:069][248]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:069][248]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:069][248]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:069][248]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:069][248]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:129][251]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:129][251]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:129][251]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:129][251]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:149][252]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:149][252]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:189][254]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:189][254]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:189][254]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:189][254]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:209][255]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:209][255]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:249][257]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:269][258]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:269][258]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:269][258]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:269][258]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:269][258]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:329][261]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:329][261]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:329][261]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:329][261]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:349][262]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:349][262]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:389][264]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:389][264]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:409][265]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:409][265]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:409][265]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:409][265]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:449][267]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:469][268]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:469][268]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:469][268]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:469][268]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:469][268]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:529][271]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:529][271]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:529][271]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:529][271]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:549][272]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:549][272]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.01:589][274]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.01:589][274]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:109][300]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:109][300]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:129][301]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:130][301]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:169][303]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:169][303]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:189][304]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:189][304]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:189][304]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:189][304]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:249][307]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:249][307]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:249][307]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:249][307]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:269][308]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:269][308]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:309][310]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:309][310]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:309][310]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:309][310]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:329][311]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:329][311]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:369][313]LightingResults:Warning: Warning test_Block_10degree Object has overlapping UVs.
+[2017.10.31-22.48.02:369][313]LightingResults: Info test_Block_10degree Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.02:549][322]LightingResults:Warning: Warning Test_Goal_76 Object has overlapping UVs.
+[2017.10.31-22.48.02:549][322]LightingResults: Info Test_Goal_76 Lightmap UV are overlapping by 17.1%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.31-22.48.08:387][611]Job is a success!
+[2017.10.31-22.48.10:112][613]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048) - 103 MB total VRAM
+[2017.10.31-22.48.10:112][613]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048) - 103 MB total VRAM
+[2017.10.31-22.48.10:112][613]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 103 MB total VRAM
+[2017.10.31-22.48.10:112][613]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 103 MB total VRAM
+[2017.10.31-22.48.10:112][613]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512) - 103 MB total VRAM
+[2017.10.31-22.48.10:112][613]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512) - 103 MB total VRAM
+[2017.10.31-22.48.10:112][613]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128) - 103 MB total VRAM
+[2017.10.31-22.48.10:112][613]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128) - 103 MB total VRAM
+[2017.10.31-22.48.10:312][613]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 128X1024) - 103 MB total VRAM
+[2017.10.31-22.48.10:312][613]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256) - 103 MB total VRAM
+[2017.10.31-22.48.10:312][613]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 128X64) - 103 MB total VRAM
+[2017.10.31-22.48.10:312][613]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X128) - 103 MB total VRAM
+[2017.10.31-22.48.10:373][613]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024) - 103 MB total VRAM
+[2017.10.31-22.48.10:389][613]Lightmass on 1916C006: 16.9 sec total, 144 ms importing, 21 ms setup, 4.01 sec photons, 12.7 sec processing, 0 ms extra exporting [86/86 mappings]. Threads: 1:28 min total, 42.8 sec processing.
+[2017.10.31-22.48.10:414][613]LogStaticLightingSystem: Illumination: 22.1 sec (1.14 sec encoding lightmaps, 259 ms encoding shadowmaps)
+[2017.10.31-22.48.10:414][613]LogStaticLightingSystem: Lightmap texture memory:  10.5 MB (2.5 MB streaming, 8.0 MB non-streaming), 8 textures
+[2017.10.31-22.48.10:414][613]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (0.5 MB streaming, 1.5 MB non-streaming), 5 textures
+[2017.10.31-22.48.24:714][613]DumpUnbuiltLightIteractions
+[2017.10.31-22.48.24:714][613]Lights with unbuilt interactions: 0
+[2017.10.31-22.48.24:714][613]
+[2017.10.31-22.48.24:714][613]Primitives with unbuilt interactions: 0
+[2017.10.31-22.48.24:739][614]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.31-22.48.24:740][614]MapCheck: New page: Main_Arena - 2/11/2017 12:48:24 am
+[2017.10.31-22.48.24:813][614]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.117ms to complete.
+[2017.10.31-22.48.33:525][351]LogSavePackage: Save=97.10ms
+[2017.10.31-22.48.33:525][351]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Main_Arena5CD2B7B342734B5E58A75E86F582586B.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap'
+[2017.10.31-22.48.33:527][351]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena.umap
+[2017.10.31-22.48.33:540][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_Arena_BuiltData" FILE="../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena_BuiltData.uasset" SILENT=true
+[2017.10.31-22.48.33:851][351]LogSavePackage: Save=309.05ms
+[2017.10.31-22.48.33:851][351]LogSavePackage: Moving '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Main_Arena_BuiltData82B4197B4D1EDCC3B752CDAC22D37C9E.tmp' to '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena_BuiltData.uasset'
+[2017.10.31-22.48.33:852][351]LogSavePackage:Display: Finished SavePackage ../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Levels/Main_Arena_BuiltData.uasset
+[2017.10.31-22.48.39:851][865]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.31-22.48.41:957][ 70]Cmd: QUIT_EDITOR
+[2017.10.31-22.48.42:171][ 70]LogExit: Preparing to exit.
+[2017.10.31-22.48.43:037][ 70]LogDirectoryWatcher: A directory notification for 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/' was aborted.
+[2017.10.31-22.48.43:084][ 70]LogExit: Editor shut down
+[2017.10.31-22.48.43:084][ 70]LogExit: Transaction tracking system shut down
+[2017.10.31-22.48.43:650][ 70]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.31-22.48.43:650][ 70]LogExit: Object subsystem successfully closed.
+[2017.10.31-22.48.43:743][ 70]LogD3D11RHI: Shutdown
+[2017.10.31-22.48.43:743][ 70]LogD3D11RHI: CleanupD3DDevice
+[2017.10.31-22.48.43:918][ 70]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.31-22.48.44:139][ 70]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (510)
+[2017.10.31-22.48.44:139][ 70]LogModuleManager: Shutting down and abandoning module BlueprintGraph (508)
+[2017.10.31-22.48.44:139][ 70]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (506)
+[2017.10.31-22.48.44:145][ 70]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.10.31-22.48.44:145][ 70]LogModuleManager: Shutting down and abandoning module Voice (502)
+[2017.10.31-22.48.44:145][ 70]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.10.31-22.48.44:145][ 70]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.10.31-22.48.44:145][ 70]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.10.31-22.48.44:145][ 70]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.10.31-22.48.44:154][ 70]LogDirectoryWatcher: A directory notification for 'D:/UE_4.15/FeaturePacks/' was aborted.
+[2017.10.31-22.48.44:160][ 70]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.10.31-22.48.44:160][ 70]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.10.31-22.48.44:160][ 70]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.10.31-22.48.44:161][ 70]LogDirectoryWatcher: A directory notification for 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Collections/' was aborted.
+[2017.10.31-22.48.44:161][ 70]LogDirectoryWatcher: A directory notification for 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/Developers/connormur6909/Collections/' was aborted.
+[2017.10.31-22.48.44:161][ 70]LogDirectoryWatcher: A directory notification for 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Saved/Collections/' was aborted.
+[2017.10.31-22.48.44:161][ 70]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.10.31-22.48.44:162][ 70]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.10.31-22.48.44:163][ 70]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.10.31-22.48.44:163][ 70]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.10.31-22.48.44:163][ 70]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.10.31-22.48.44:178][ 70]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.10.31-22.48.44:179][ 70]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.10.31-22.48.44:188][ 70]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.10.31-22.48.44:188][ 70]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.10.31-22.48.44:188][ 70]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.10.31-22.48.44:188][ 70]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.10.31-22.48.44:188][ 70]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.10.31-22.48.44:190][ 70]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.10.31-22.48.44:190][ 70]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.10.31-22.48.44:192][ 70]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.10.31-22.48.44:192][ 70]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.10.31-22.48.44:192][ 70]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.10.31-22.48.44:192][ 70]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.10.31-22.48.44:192][ 70]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.10.31-22.48.44:633][ 70]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.10.31-22.48.44:633][ 70]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.10.31-22.48.44:633][ 70]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.10.31-22.48.44:634][ 70]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.10.31-22.48.44:650][ 70]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.10.31-22.48.44:651][ 70]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.10.31-22.48.44:652][ 70]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.10.31-22.48.44:653][ 70]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.10.31-22.48.44:653][ 70]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.10.31-22.48.44:654][ 70]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.10.31-22.48.44:655][ 70]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.10.31-22.48.44:655][ 70]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.10.31-22.48.44:656][ 70]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.10.31-22.48.44:656][ 70]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.10.31-22.48.44:656][ 70]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.10.31-22.48.44:657][ 70]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.10.31-22.48.44:657][ 70]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.10.31-22.48.44:657][ 70]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.10.31-22.48.44:657][ 70]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.10.31-22.48.44:657][ 70]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.10.31-22.48.44:659][ 70]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.10.31-22.48.44:660][ 70]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.10.31-22.48.44:662][ 70]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.10.31-22.48.44:663][ 70]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.10.31-22.48.44:664][ 70]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.10.31-22.48.44:714][ 70]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.10.31-22.48.44:734][ 70]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.10.31-22.48.44:735][ 70]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.10.31-22.48.44:738][ 70]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.10.31-22.48.44:738][ 70]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.10.31-22.48.44:738][ 70]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.10.31-22.48.44:738][ 70]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.10.31-22.48.44:740][ 70]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.10.31-22.48.44:740][ 70]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.10.31-22.48.44:755][ 70]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.10.31-22.48.44:755][ 70]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.10.31-22.48.44:756][ 70]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.10.31-22.48.44:757][ 70]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.10.31-22.48.44:758][ 70]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.10.31-22.48.44:775][ 70]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.10.31-22.48.44:784][ 70]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.10.31-22.48.44:785][ 70]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.10.31-22.48.44:785][ 70]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.10.31-22.48.44:785][ 70]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.10.31-22.48.44:785][ 70]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.10.31-22.48.44:785][ 70]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.10.31-22.48.44:785][ 70]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.10.31-22.48.44:785][ 70]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.10.31-22.48.44:785][ 70]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.10.31-22.48.44:797][ 70]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.10.31-22.48.44:798][ 70]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.10.31-22.48.44:798][ 70]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.10.31-22.48.44:906][ 70]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.10.31-22.48.44:932][ 70]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.10.31-22.48.44:932][ 70]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.10.31-22.48.44:932][ 70]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.10.31-22.48.44:932][ 70]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.10.31-22.48.44:933][ 70]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.10.31-22.48.44:933][ 70]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.10.31-22.48.44:933][ 70]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.10.31-22.48.44:933][ 70]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.10.31-22.48.44:933][ 70]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.10.31-22.48.44:933][ 70]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.10.31-22.48.44:933][ 70]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (284)
+[2017.10.31-22.48.44:934][ 70]LogModuleManager: Shutting down and abandoning module HTML5Networking (282)
+[2017.10.31-22.48.44:934][ 70]LogModuleManager: Shutting down and abandoning module AlembicImporter (280)
+[2017.10.31-22.48.44:935][ 70]LogModuleManager: Shutting down and abandoning module AlembicLibrary (279)
+[2017.10.31-22.48.44:935][ 70]LogModuleManager: Shutting down and abandoning module GeometryCache (278)
+[2017.10.31-22.48.44:935][ 70]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (277)
+[2017.10.31-22.48.44:935][ 70]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (272)
+[2017.10.31-22.48.44:935][ 70]LogModuleManager: Shutting down and abandoning module SuperSearch (271)
+[2017.10.31-22.48.44:935][ 70]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (268)
+[2017.10.31-22.48.44:935][ 70]LogModuleManager: Shutting down and abandoning module PluginBrowser (266)
+[2017.10.31-22.48.44:957][ 70]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (264)
+[2017.10.31-22.48.44:968][ 70]LogModuleManager: Shutting down and abandoning module EpicSurvey (262)
+[2017.10.31-22.48.44:968][ 70]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (260)
+[2017.10.31-22.48.44:968][ 70]LogModuleManager: Shutting down and abandoning module DesktopPlatform (259)
+[2017.10.31-22.48.44:969][ 70]LogModuleManager: Shutting down and abandoning module UObjectPlugin (256)
+[2017.10.31-22.48.44:969][ 70]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (254)
+[2017.10.31-22.48.44:970][ 70]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (252)
+[2017.10.31-22.48.44:978][ 70]LogModuleManager: Shutting down and abandoning module GitSourceControl (250)
+[2017.10.31-22.48.44:982][ 70]LogModuleManager: Shutting down and abandoning module SourceControl (249)
+[2017.10.31-22.48.44:984][ 70]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (246)
+[2017.10.31-22.48.44:984][ 70]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (244)
+[2017.10.31-22.48.44:984][ 70]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (242)
+[2017.10.31-22.48.44:984][ 70]LogModuleManager: Shutting down and abandoning module Paper2DEditor (240)
+[2017.10.31-22.48.44:990][ 70]LogModuleManager: Shutting down and abandoning module MeshPaint (239)
+[2017.10.31-22.48.44:990][ 70]LogModuleManager: Shutting down and abandoning module LevelEditor (237)
+[2017.10.31-22.48.44:990][ 70]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (236)
+[2017.10.31-22.48.45:002][ 70]LogModuleManager: Shutting down and abandoning module MainFrame (234)
+[2017.10.31-22.48.45:002][ 70]LogModuleManager: Shutting down and abandoning module HotReload (233)
+[2017.10.31-22.48.45:002][ 70]LogDirectoryWatcher: A directory notification for 'D:/Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Binaries/Win64' was aborted.
+[2017.10.31-22.48.45:003][ 70]LogModuleManager: Shutting down and abandoning module ContentBrowser (229)
+[2017.10.31-22.48.45:004][ 70]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2017.10.31-22.48.45:004][ 70]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2017.10.31-22.48.45:004][ 70]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2017.10.31-22.48.45:004][ 70]LogModuleManager: Shutting down and abandoning module UdpMessaging (220)
+[2017.10.31-22.48.45:104][ 70]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
+[2017.10.31-22.48.45:204][ 70]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (216)
+[2017.10.31-22.48.45:222][ 70]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (214)
+[2017.10.31-22.48.45:224][ 70]LogModuleManager: Shutting down and abandoning module FacialAnimation (212)
+[2017.10.31-22.48.45:224][ 70]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2017.10.31-22.48.45:224][ 70]LogModuleManager: Shutting down and abandoning module Paper2D (208)
+[2017.10.31-22.48.45:225][ 70]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (206)
+[2017.10.31-22.48.45:226][ 70]LogModuleManager: Shutting down and abandoning module WmfMedia (204)
+[2017.10.31-22.48.45:229][ 70]LogModuleManager: Shutting down and abandoning module MfMedia (202)
+[2017.10.31-22.48.45:229][ 70]LogModuleManager: Shutting down and abandoning module MediaAssets (200)
+[2017.10.31-22.48.45:229][ 70]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (198)
+[2017.10.31-22.48.45:229][ 70]LogModuleManager: Shutting down and abandoning module VREditor (196)
+[2017.10.31-22.48.45:229][ 70]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2017.10.31-22.48.45:229][ 70]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2017.10.31-22.48.45:232][ 70]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2017.10.31-22.48.45:233][ 70]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2017.10.31-22.48.45:234][ 70]LogModuleManager: Shutting down and abandoning module UMG (186)
+[2017.10.31-22.48.45:235][ 70]LogModuleManager: Shutting down and abandoning module UMGEditor (185)
+[2017.10.31-22.48.45:356][ 70]LogModuleManager: Shutting down and abandoning module Sequencer (184)
+[2017.10.31-22.48.45:382][ 70]LogModuleManager: Shutting down and abandoning module AssetTools (182)
+[2017.10.31-22.48.45:478][ 70]LogModuleManager: Shutting down and abandoning module MessageLog (181)
+[2017.10.31-22.48.45:478][ 70]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (180)
+[2017.10.31-22.48.45:478][ 70]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2017.10.31-22.48.45:627][ 70]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2017.10.31-22.48.45:627][ 70]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2017.10.31-22.48.45:630][ 70]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (168)
+[2017.10.31-22.48.45:667][ 70]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (166)
+[2017.10.31-22.48.45:667][ 70]LogModuleManager: Shutting down and abandoning module XAudio2 (164)
+[2017.10.31-22.48.45:667][ 70]LogModuleManager: Shutting down and abandoning module Networking (162)
+[2017.10.31-22.48.45:667][ 70]LogModuleManager: Shutting down and abandoning module Core (160)
+[2017.10.31-22.48.45:667][ 70]LogModuleManager: Shutting down and abandoning module AssetRegistry (158)
+[2017.10.31-22.48.45:764][ 70]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.31-22.48.45:764][ 70]LogDirectoryWatcher: A directory notification for '../../../../Users/connor.mur6909/Desktop/ReboundTwoNetworked/ReboundTwo/Content/' was aborted.
+[2017.10.31-22.48.45:764][ 70]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.31-22.48.45:764][ 70]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2017.10.31-22.48.45:765][ 70]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
+[2017.10.31-22.48.45:765][ 70]LogModuleManager: Shutting down and abandoning module PhysXFormats (152)
+[2017.10.31-22.48.45:765][ 70]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2017.10.31-22.48.45:765][ 70]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (149)
+[2017.10.31-22.48.46:024][ 70]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (147)
+[2017.10.31-22.48.46:024][ 70]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
+[2017.10.31-22.48.46:025][ 70]LogModuleManager: Shutting down and abandoning module PropertyEditor (143)
+[2017.10.31-22.48.46:025][ 70]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2017.10.31-22.48.46:041][ 70]LogDerivedDataCache: Shutdown
+[2017.10.31-22.48.46:041][ 70]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2017.10.31-22.48.46:041][ 70]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2017.10.31-22.48.46:091][ 70]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2017.10.31-22.48.46:152][ 70]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2017.10.31-22.48.46:152][ 70]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2017.10.31-22.48.46:154][ 70]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2017.10.31-22.48.46:154][ 70]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2017.10.31-22.48.46:154][ 70]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2017.10.31-22.48.46:154][ 70]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2017.10.31-22.48.46:155][ 70]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2017.10.31-22.48.46:155][ 70]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2017.10.31-22.48.46:155][ 70]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2017.10.31-22.48.46:155][ 70]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2017.10.31-22.48.46:186][ 70]LogModuleManager: Shutting down and abandoning module OculusRift (54)
+[2017.10.31-22.48.46:187][ 70]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.31-22.48.46:187][ 70]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.31-22.48.46:187][ 70]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.31-22.48.46:187][ 70]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.31-22.48.46:187][ 70]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.10.31-22.48.46:188][ 70]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.10.31-22.48.46:189][ 70]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.31-22.48.46:189][ 70]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.10.31-22.48.46:260][ 70]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.10.31-22.48.46:261][ 70]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.31-22.48.46:261][ 70]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF0313EF5-4DB4-2A24-4AA4-39901DDE64A3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=31ed941b4a52e537edd76892e64b5ae4%7C60e861c3abce45729e1fbdd9ad72615a%7Ca0be99ee-00c1-4590-8b5b-3f6ea93b82f4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.31-22.48.46:296][ 70]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.10.31-22.48.46:393][ 70]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.31-22.48.46:393][ 70]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.31-22.48.46:393][ 70]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.31-22.48.46:393][ 70]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.31-22.48.46:393][ 70]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.31-22.48.46:421][ 70]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.31-22.48.46:422][ 70]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.31-22.48.46:422][ 70]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.31-22.48.46:455][ 70]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.31-22.48.46:455][ 70]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.31-22.48.46:455][ 70]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.31-22.48.46:455][ 70]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.31-22.48.46:469][ 70]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.31-22.48.46:469][ 70]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.31-22.48.46:470][ 70]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.31-22.48.46:631][ 70]LogExit: Exiting.
+[2017.10.31-22.48.46:668][ 70]Log file closed, 11/01/17 11:48:46
